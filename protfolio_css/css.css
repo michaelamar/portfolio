@@ -1,0 +1,29 @@
+.header{
+	position: fixed;
+	margin-top: 0;
+	margin-left: 0;
+	width:100%;
+	background-color: blue;
+}
+
+p{
+	margin-bottom: 5px;
+
+}
+
+h3{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.menu{
+	width: 20%;
+	height: 100px;
+}
+
+.texts{
+	width: 80%;
+	float: right;
+}
