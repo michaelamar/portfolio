@@ -1,34 +1,55 @@
 $(document).ready(function(){
 	$('.home_text').waypoint(function() {
-		clearAllBack();
-		$('#home').css("background-color", "red");
+
+		clearAll();
+		$('#home').css({"transition": "ease color 1s", "font-size": "28px", "color": "#11dddd"});
+		$(this).css({"background-color": "#0FFFD7"});
+	});
+
+	$('.reading').waypoint(function() {
+		clearAll();
+		$('#reading').css({"font-size": "28px", "color": "#11dddd"});
+		$(this).css({"background-color": "#0033FF"});
+		//$('.reading').css("background-color", "green");
 	});
 
 
 	$('.resume').waypoint(function() {
-		clearAllBack();
-		$('#resume').css("background-color", "red");
+		clearAll();
+		
+		$('#resume').css({"font-size": "28px", "color": "#11dddd"});
+		$(this).css({"background-color": "#999"});
+		
 	});
 
 	$('.work').waypoint(function() {
-		clearAllBack();
-		$('#work').css("background-color", "red");
+		clearAll();
+		$('#work').css({"font-size": "28px", "color": "#11dddd"});
+		$(this).css({"background-color": "#FF510F "});
 	});
 
 	$('.contact').waypoint(function() {
-		clearAllBack();
-		$('#contact').css("background-color", "red");
+		clearAll();
+		$('#contact').css({"font-size": "28px", "color": "#11dddd"});
+		$(this).css({"background-color": "#FFCC00"});
+
 
 	});
 
-	$('.reading').waypoint(function() {
-		clearAllBack();
-		$('#reading').css("background-color", "red");
-		$('.reading').css("background-color", "green");
-	});
+//problem is it gets in the way of my hover
+	function clearAll(){
+		$('#resume, #home, #work, #reading, #contact').css({"font-size":"16px", "color":"#11ddff"});
 
-	function clearAllBack(){
-		$('#resume, #home, #work, #reading, #contact').css("background-color", "white");
-		
 	}
+
+	// function createWaypoint(clas, id){
+	// $(clas).waypoint(function(){
+	// $(id).css("background-color", "red");
+	// });
+// }
+
+
+
+
+
 });
