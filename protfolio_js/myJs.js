@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	$('.home_text').waypoint(function() {
-
 		clearAll();
 		$('#home').css({"transition": "ease color 1s", "font-size": "28px", "color": "#11dddd"});
 		$(this).css({"background-color": "#0FFFD7"});

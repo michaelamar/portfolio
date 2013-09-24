@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hire Me</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="protfolio_css/reset.css">
+		<link rel="stylesheet" type="text/css" href="protfolio_css/css.css">
+		<link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
+		<script src="protfolio_js/jquery.js"></script>
+	</head>
+
+	<body>
+		<a class="hire_link" href="index.html">Home</a>
+		<p class="hire_p">Please use this form to tell me more about your project details as well as yourself.</p>
+		<form class="hire_form">
+			<label >Name</label>
+			<input autofocus required type="text" name="name" placeholder="What's your name?"><br>
+			<label >Email</label>
+			<input required type="email" name="email" placeholder="Fill in your email."><br>
+			<label id="description">Project Description</label>
+			<textarea required placeholder="Write in your description"></textarea><br> 
+			<br><label>Project completion Date</label>
+			<input required type="date"><br>
+			<label>Phone Number</label>
+			<input required type="tel"><br>
+			<label>Upload Any relevant files here.</label>
+			<input type="file"><br>
+			
+			Security Question: 11 + 4 = ? <input type="text" id="security" required oninput="check(this)"><br>
+			
+			<script>function check(input) {
+
+				  if (input.value != 15) {
+				    input.setCustomValidity('The answer you submitted is incorrect.');
+				  } else {
+				    // input is valid -- reset the error message
+				    input.setCustomValidity('');
+				  }
+				}
+  			</script>
+
+
+
+			<input class="submit" type="submit" value="inquire">
+		</form>
+
+	</body>
+</html>
