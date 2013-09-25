@@ -24,7 +24,7 @@ $(document).ready(function(){
 	$('.work').waypoint(function() {
 		clearAll();
 		$('#work').css({"font-size": "28px", "color": "#11dddd"});
-		$(this).css({"background-color": "#FF510F "});
+		$(this).css({"background-color": "#FF510F"});
 	});
 
 	$('.contact').waypoint(function() {

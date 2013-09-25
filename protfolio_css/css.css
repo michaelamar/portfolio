@@ -90,7 +90,7 @@ ul{
 	position: fixed;
 }
 
- a{
+ .menu a{
 	transition: color 1s ease;
 	text-decoration: none;
 	color: #11ddff;
@@ -256,3 +256,13 @@ div.resume span{
 	margin-bottom: 3px;
 }
 
+.block a{
+	transition: color 1s ease;
+	text-decoration: none;
+	color:#dd410e;
+	/*color: #00882D;*/
+}
+
+.block a:hover{
+	color: #111;
+}
