@@ -2,7 +2,8 @@ $(document).ready(function(){
 	$('.home_text').waypoint(function() {
 		//clearAll();
 		$('#home').toggleClass('clear');
-		$('html').css({"transition": "ease background-color 1s", "background-color": "#22B3C9"});
+		$('html').css({"transition": "ease background-color 1s", "background-color": "#ffffff"});
+		//$('.header').css({"background-color": "#ffffff"});
 	}, { offset: '7%' });
 
 	$('.reading').waypoint(function() {
@@ -19,7 +20,7 @@ $(document).ready(function(){
 		$('#reading').toggleClass('clear');
 		$('#resume').toggleClass('clear');
 		//$('.work').css({"background-color": "transparent"});
-		$('html').css({"transition": "ease background-color 1s", "background-color": "#FF5251"}); //CC3D22"
+		$('html').css({"transition": "ease background-color 1s", "background-color": "#FF510F"}); //CC3D22"
 
 		 
 	}, { offset: '20%' });
@@ -30,7 +31,7 @@ $(document).ready(function(){
 		$('#resume').toggleClass('clear');
 		$('#work').toggleClass('clear');
 		//$('.contact').css({"background-color": "transparent"});
-		$('html').css({"transition": "ease background-color 1s", "background-color": "#FF510F"});
+		$('html').css({"transition": "ease background-color 1s", "background-color": "#FF8651"});
 
 	}, { offset: '20%' });
 
