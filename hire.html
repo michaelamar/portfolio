@@ -12,7 +12,7 @@
 	<body>
 		<a class="hire_link" href="mike.html">Home</a>
 		<p class="hire_p">Please use this form to tell me more about your project details as well as yourself.</p>
-		<form class="hire_form">
+		<form class="hire_form" id="my_form">
 			<label >Name</label>
 			<input autofocus required type="text" name="name" placeholder="What's your name?"><br>
 			<label >Email</label>
@@ -41,7 +41,15 @@
 
 
 
-			<input class="submit" type="submit" value="inquire">
+			<input class="submit" type="submit" oninput="submitForm()" value="inquire">
+
+			<script language ="javascript" type = "text/javascript" >
+    			function submitForm()
+    			{
+       				$("#my_form").submit();
+    			}
+			</script>
+
 		</form>
 
 	</body>

@@ -36,7 +36,7 @@ li{
 	border-bottom: solid 1px #888888;
 	width:100%;
 	background-color: #ffffff;
-	opacity: .8;
+	opacity: .66;
 	font-weight: 900;
 	font-size: 22px;
 	padding-bottom: 30px;
@@ -47,18 +47,21 @@ p{
 	margin-bottom: 9px;
 	line-height: 150%;
 	width: 700px;
-
+	text-align: left;
+	 
 }
 
 .toggle{
 	background-color: red;
 }
 
-h3{	text-align: center;
+h3{	
+	text-align: center;
 	font-size: 18px;
 	font-weight: bold;
 	margin-bottom: 5px;
 	margin-top: 5px;
+	margin-left: -259px;
 }
 
 .menu{	
@@ -68,12 +71,15 @@ h3{	text-align: center;
 	height: 100px;
 	float: left;
 	position: fixed;
+
 }
 
 .block{
 	margin-bottom: 200px;
-	transition: background-color .5s ease;
-
+	transition: background-color .2s ease;
+	width: auto;
+	margin-left:50px;
+	
 }
 
 
@@ -97,7 +103,7 @@ ul{
  .menu a{
 	transition: color .5s ease;
 	text-decoration: none;
-	color: #11ddff;
+	color: #476299;
 }
 
 a:hover{
@@ -110,7 +116,7 @@ a:hover{
 	margin-bottom: 20px;
 	transition:color 1s ease;
 	text-decoration: none;
-	color: #11ddff;
+	color: #476299;
 }
 
 .hire_link:hover{
@@ -140,7 +146,17 @@ a:hover{
 .texts{
 	width: 80%;
 	float: right;
+
 }
+
+#borderLeft {
+         border-left: 1px solid gray;
+         position: fixed;
+         top: 13%;
+         bottom: 0;
+         }
+	
+
 
 #contact_form .hire_form label{
 	width: 200px;
@@ -220,7 +236,7 @@ input.submit {
 }
 
 div.resume_header{
-
+	margin-left: -248px;
 	margin-top: 10px;
 	text-align: center;
 }
@@ -238,9 +254,7 @@ input.submit:active {
     -ms-box-shadow: 0 0 10px 5px #356b0b inset;
     -o-box-shadow: 0 0 10px 5px #356b0b inset;
 }
-.block{
-	width: 700px;
-}
+
 
 div.resume span{	
 	font-weight:bolder;
@@ -248,7 +262,6 @@ div.resume span{
 }
 .resume p{
 	line-height: 100%;
-	width: auto;
 }
 .company{
 	margin-bottom: 20px;
@@ -263,7 +276,7 @@ div.resume span{
 .block a{
 	transition: color .5s ease;
 	text-decoration: none;
-	color:#ff1166;
+	color:#476299;
 	/*color: #00882D;*/
 }
 
@@ -277,4 +290,13 @@ div.resume span{
 
 .background-color-white{
 	background-color: white;
+}
+
+.clear{
+	transition: ease color 1s; 
+	color: #fff;
+}
+.clear:hover{
+	transition: ease color 1s;
+	color:#111;
 }
