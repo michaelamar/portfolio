@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$('.home_text').waypoint(function() {
 		//clearAll();
 		$('#home').toggleClass('clear');
-		$('html').css({"transition": "ease background-color 1s", "background-color": "#ffffff"});
+		$('html').css({"transition": "ease background-color 1s", "background-color": "#b1e1ed"});
 		//$('.header').css({"background-color": "#ffffff"});
 	}, { offset: '7%' });
 
@@ -20,7 +20,7 @@ $(document).ready(function(){
 		$('#reading').toggleClass('clear');
 		$('#resume').toggleClass('clear');
 		//$('.work').css({"background-color": "transparent"});
-		$('html').css({"transition": "ease background-color 1s", "background-color": "#FF510F"}); //CC3D22"
+		$('html').css({"transition": "ease background-color 1s", "background-color": "#c9e6de"}); //CC3D22"
 
 		 
 	}, { offset: '20%' });
