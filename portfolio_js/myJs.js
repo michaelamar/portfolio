@@ -19,7 +19,7 @@ $(document).ready(function(){
 		$('#reading').toggleClass('clear');
 		$('#resume').toggleClass('clear');
 		//$('.work').css({"background-color": "transparent"});
-		$('html').css({"transition": "ease background-color 1s", "background-color": "#22B3C9"}); //CC3D22"
+		$('html').css({"transition": "ease background-color 1s", "background-color": "#FF5251"}); //CC3D22"
 
 		 
 	}, { offset: '20%' });
