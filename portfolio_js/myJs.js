@@ -12,7 +12,7 @@ $(document).ready(function(){
 		$('#reading').toggleClass('clear');
 		$('html').css({"transition": "ease background-color 1s", "background-color": "#FF8651"});
 		//$('.reading').css("background-color", "green");
-	}, { offset: '20%' });
+	}, { offset: '25%' });
 
 
 	$('.resume').waypoint(function() {
@@ -23,7 +23,7 @@ $(document).ready(function(){
 		$('html').css({"transition": "ease background-color 1s", "background-color": "#c9e6de"}); //CC3D22"
 
 		 
-	}, { offset: '20%' });
+	}, { offset: '25%' });
 
 
 	$('.work').waypoint(function() {
@@ -33,16 +33,16 @@ $(document).ready(function(){
 		//$('.contact').css({"background-color": "transparent"});
 		$('html').css({"transition": "ease background-color 1s", "background-color": "#FF8651"});
 
-	}, { offset: '20%' });
+	}, { offset: '25%' });
 
 	$('.contact').waypoint(function() {
 		//clearAll();
 		$('#work').toggleClass('clear');
 		$('#contact').toggleClass('clear');
 		$('html').css({"transition": "ease background-color 1s", "background-color": "#FFCC00"});
+		$('#forHire').css({"font-size": "18px"});
 
-
-	}, { offset: '20%' });
+	}, { offset: '25%' });
 
 //problem is it gets in the way of my hover
 	// function clearAll(){
