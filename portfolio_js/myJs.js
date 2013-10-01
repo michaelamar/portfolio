@@ -39,7 +39,7 @@ $(document).ready(function(){
 		//clearAll();
 		$('#work').toggleClass('clear');
 		$('#contact').toggleClass('clear');
-		$('html').css({"transition": "ease background-color 1s", "background-color": "#FFCC00"});
+		$('html').css({"transition": "ease background-color 1s", "background-color": "#FFCC55"});
 		$('#forHire').css({"font-size": "18px"});
 
 	}, { offset: '25%' });
