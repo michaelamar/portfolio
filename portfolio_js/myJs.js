@@ -10,7 +10,7 @@ $(document).ready(function(){
 		//clearAll();
 		$('#home').toggleClass('clear');
 		$('#reading').toggleClass('clear');
-		$('html').css({"transition": "ease background-color 1s", "background-color": "#FF8651"});
+		$('html').css({"transition": "ease background-color 1s", "background-color": "#ffccaa"});
 		//$('.reading').css("background-color", "green");
 	}, { offset: '25%' });
 
@@ -31,7 +31,7 @@ $(document).ready(function(){
 		$('#resume').toggleClass('clear');
 		$('#work').toggleClass('clear');
 		//$('.contact').css({"background-color": "transparent"});
-		$('html').css({"transition": "ease background-color 1s", "background-color": "#FF8651"});
+		$('html').css({"transition": "ease background-color 1s", "background-color": "#ccee97"});
 
 	}, { offset: '25%' });
 

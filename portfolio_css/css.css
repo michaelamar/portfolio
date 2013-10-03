@@ -8,6 +8,7 @@ div{
 body{
 	font-family: 'Gentium Book Basic', serif;
 	transition: background-color .5s ease;
+	background: url(../images/brushed.png) repeat 0 0;
 }
 /*.home_text{
 	background: blue; 
@@ -75,6 +76,7 @@ h3{
 }
 
 .block{
+	
 	margin-bottom: 200px;
 	transition: background-color .2s ease;
 	width: auto;
