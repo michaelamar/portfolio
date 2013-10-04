@@ -6,27 +6,30 @@
 		<link rel="stylesheet" type="text/css" href="portfolio_css/reset.css">
 		<link rel="stylesheet" type="text/css" href="portfolio_css/css.css">
 		<link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="font-face/entypo.css" />
 		<script src="portfolio_js/jquery.js"></script>
 	</head>
 
 	<body>
+		<div class="header">Michael Amar <a href="http://github.com/michaelamar">&#62208;</a><a href="http://twitter.com/mordachiamar">&#62217;</a><a href="http://www.linkedin.com/profile/view?id=145221371&trk=nav_responsive_tab_profile">&#62233;</a></div>
+		
 		<a class="hire_link" href="mike.html">Home</a>
 		<p class="hire_p">Please use this form to tell me more about your project details as well as yourself.</p>
 		<form class="hire_form" id="my_form">
 			<label >Name</label>
-			<input autofocus required type="text" name="name" placeholder="What's your name?"><br>
+			<input class="ones" autofocus required type="text" name="name" placeholder="What's your name?">
 			<label >Email</label>
-			<input required type="email" name="email" placeholder="Fill in your email."><br>
+			<input class="ones" required type="email" name="email" placeholder="Fill in your email.">
 			<label id="description">Project Description</label>
-			<textarea required placeholder="Write in your description"></textarea><br> 
-			<br><label>Project completion Date</label>
-			<input required type="date"><br>
+			<textarea class="ones" required placeholder="Write in your description"></textarea> 
+			<label>Project completion Date</label>
+			<input class="ones" required type="date">
 			<label>Phone Number</label>
-			<input required type="tel"><br>
+			<input class="ones" required placeholder="Phone Number" type="tel">
 			<label>Upload Any relevant files here.</label>
-			<input type="file"><br>
+			<input class="ones" type="file">
 			
-			Security Question: 11 + 4 = ? <input type="text" id="security" required oninput="check(this)"><br>
+			Security Question: 11 + 4 = ? <input type="text" class="ones" id="security" required oninput="check(this)">
 			
 			<script>function check(input) {
 
@@ -41,7 +44,7 @@
 
 
 
-			<input class="submit" type="submit" oninput="submitForm()" value="inquire">
+			<input class="submit ones" type="submit" oninput="submitForm()" value="inquire">
 
 			<script language ="javascript" type = "text/javascript" >
     			function submitForm()
