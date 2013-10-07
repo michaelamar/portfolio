@@ -112,6 +112,52 @@ a:hover{
 	color: #111111;
 }
 
+.hire_button:hover{
+	background: #242424;
+-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+.leftHeader{
+	float: left;
+	width: 35px;
+	font-family: "entypo-social";
+	font-size: 43px;
+
+}
+
+.iconBlock{
+	position: absolute;
+	left: 300px;
+	top: 15px;	
+}
+
+.rightHeader{
+	float: right;
+	
+	
+}
+.hire_button{
+  
+  display: inline-block;
+  position: absolute;
+  background: #c3c2c2;
+  color: white !important;
+  padding: 11px 19px 5px 15px;
+  font-size: 18px;
+  line-height: 18px;
+  border-radius: 4px;
+  right: 260px;
+	top: 20px;
+
+}
+
+.header img{
+	width: 15px;
+position: relative;
+top: 1px;
+right: 3px;
+}
 .hire_link{
 	position: absolute;
 	top:90px;
@@ -125,7 +171,6 @@ a:hover{
 .hire_link:hover{
 	color: #111111;
 }
-
 
 /*.selected{
 	font-size: 28px; 
@@ -160,6 +205,12 @@ a:hover{
          }
 	*/
 
+#contact_form{
+	height: auto;
+text-align: center;
+margin: 0 auto;
+width: 50%;
+}
 
 #contact_form .hire_form label{
 	width: 200px;
@@ -182,10 +233,13 @@ a:hover{
 
 .hire_form{
 	
-	position: absolute;
-	top:140px;
-	left: 450px;
+	height: auto;
 
+margin: 0 auto;
+width: 50%;
+position: absolute;
+top: 130px;
+left:500px;
 }
 
 textarea{
@@ -204,6 +258,7 @@ input{
 }
 
  input:focus,textarea:focus{
+	outline:none;
 	padding-right:70px;
 	-moz-transition: padding .30s;
     -webkit-transition: padding .30s;
@@ -212,9 +267,9 @@ input{
 	/*border-radius: 10px;*/
 }
 
-input:focus:required:invalid {
+/*input:focus:required:invalid {
   border: 2px solid #ff0000;
-}
+}*/
 
 textarea:focus:required:invalid {
 	border: 2px solid #ff0000;	
@@ -374,4 +429,9 @@ font-style: normal;
 .ones{
 	width: 200px;
 	margin-right: 700px;
+}
+
+#submit{
+	position: absolute;
+	left: 625px;
 }
