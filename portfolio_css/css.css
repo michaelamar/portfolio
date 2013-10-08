@@ -44,6 +44,11 @@ li{
 	font-family: "entypo-social";
 }
 
+#head{
+	position: absolute;
+}
+
+
 p{
 	margin-bottom: 9px;
 	line-height: 150%;
@@ -207,9 +212,9 @@ right: 3px;
 
 #contact_form{
 	height: auto;
-text-align: center;
-margin: 0 auto;
-width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
 }
 
 #contact_form .hire_form label{
